@@ -3,6 +3,8 @@ version: "3"
 services:
     client:
         image: nginx:latest
+        ports:
+           - "80:8083"
         volumes:
             - ./data:/usr/share/nginx/html
             - ./conf:/etc/nginx
