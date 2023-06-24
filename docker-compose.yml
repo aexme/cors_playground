@@ -8,5 +8,5 @@ services:
         volumes:
             - data:/usr/share/nginx/html
             - type: bind
-                source: ./conf/nginx.conf
-                target: /etc/nginx/nginx.conf
+              source: ./conf/nginx.conf
+              target: /etc/nginx/nginx.conf
